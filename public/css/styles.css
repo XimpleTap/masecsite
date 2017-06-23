@@ -1,0 +1,92 @@
+html{
+	position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+body{
+	background-color: #e7e7f0;
+	font-family: masecFont;
+	margin-bottom: 60px;
+	overflow-x: hidden;
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 16px;
+	text-align: justify;
+}
+textarea {
+   resize: none;
+}
+
+@font-face{
+	font-family : 'masecFont';
+	src : url('../fonts/frutiger-neue-lt-pro-condensed-medium.otf');
+}
+
+.collapsible-bar{
+	color:white !important;
+	font-size: 20px !important;
+}
+
+.navbar-custom{
+	background-color: rgba(147,49,48,.7); !important;
+	font-size: 18px;
+}
+
+.navbar-custom a{
+	color: #e2e2e2 !important;
+}
+
+.navbar-custom li a:hover{
+	color: white !important;
+	background-color: #933130;
+}
+.navbar-custom .navbar-nav>.active>a{
+	/* background-color: #cb807f !important; */
+}
+
+#myCarousel img{
+	height: 500px;
+	width: 100%;
+}
+.articles{
+	margin-top: 20px;
+}
+
+.article>h2{	
+	text-align: center;
+}
+.article-content{
+	color: white;
+	padding: 10px;
+}
+.article-content p{
+	font-size: 14px;
+	text-align: justify;
+	color: #1f1f1f;
+}
+.article-footer{
+	height: 40px;
+}
+.article-footer>.btn{
+	color: white !important;
+}
+.footer{
+
+   position: absolute;
+   bottom: 0;
+   margin: 0 auto;
+   width: 100%;
+   color: #ffffff;
+}
+
+.btn-smed{
+	border: none;
+	background: none;
+
+}
+#gmap{
+	height: 400px;
+    width: 100%;
+ }
